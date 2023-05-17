@@ -7,8 +7,7 @@ Dotenv.load
 
 api = GoodSignAPI.new(@api_token) 
 
-
-response = api.void_document('1ef588e4-4437-41dd-91c9-c139992705d5') #Single Doc - COMPLETE
+response = api.send_reminder('1ef588e4-4437-41dd-91c9-c139992705d5') # Voids a single document - it will notify signers via email
 
 puts response
 

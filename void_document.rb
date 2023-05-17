@@ -8,7 +8,7 @@ Dotenv.load
 
 api = GoodSignAPI.new(@api_token) 
 
-response = api.send_reminder('8e1fde01-a7d6-4f4c-b05b-ac026afefdff') #Single Doc - COMPLETE
+response = api.send_reminder('f2a7aa2b-83e3-4bc8-a270-4b4f767b8af1') #Single Doc - COMPLETE
 
 puts response
 
