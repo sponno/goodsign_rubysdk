@@ -9,8 +9,8 @@ Dotenv.load
 api = GoodSignAPI.new(@api_token) 
 
 
-response = api.download_pdf('54c0e3e4-f225-46e3-aaaa-d1424e475fc7','zip','download') #Single Doc - COMPLETE
+response = api.download_pdf('document_uuid','zip','download') #2nd argument can be "zip" or "pdf", folder is relative to this directory
 
-puts response
+pp response
 
 
